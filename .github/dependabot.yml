@@ -10,7 +10,7 @@ updates:
     schedule:
       interval: "daily"
        # Enable version updates for Docker
-  - package-ecosystem: "flask"
+  - package-ecosystem: "urllib3"
     # Look for a `Dockerfile` in the `root` directory
     directory: "/"
     # Check for updates once a week
